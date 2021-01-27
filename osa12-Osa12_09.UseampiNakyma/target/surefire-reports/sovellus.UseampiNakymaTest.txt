@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: sovellus.UseampiNakymaTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 1.075 s <<< FAILURE! - in sovellus.UseampiNakymaTest
+kolmasNakyma(sovellus.UseampiNakymaTest)  Time elapsed: 0.574 s  <<< ERROR!
+org.testfx.api.FxRobotException: the query ".button" returned no nodes.
+	at sovellus.UseampiNakymaTest.kolmasNakyma(UseampiNakymaTest.java:112)
+
+tokaNakyma(sovellus.UseampiNakymaTest)  Time elapsed: 0.216 s  <<< ERROR!
+org.testfx.api.FxRobotException: the query ".button" returned no nodes.
+	at sovellus.UseampiNakymaTest.tokaNakyma(UseampiNakymaTest.java:83)
+
+ekaNakyma(sovellus.UseampiNakymaTest)  Time elapsed: 0.222 s  <<< ERROR!
+org.testfx.api.FxRobotException: the query ".button" returned no nodes.
+	at sovellus.UseampiNakymaTest.ekaNakyma(UseampiNakymaTest.java:76)
+

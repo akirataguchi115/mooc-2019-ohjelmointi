@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: hiekkaranta.HiekkarantaTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.256 s <<< FAILURE! - in hiekkaranta.HiekkarantaTest
+vesiTayttaaKuopan(hiekkaranta.HiekkarantaTest)  Time elapsed: 0.042 s  <<< FAILURE!
+java.lang.AssertionError: 
+Kun metallista muodostetaan kuppi, ja vettä kaadetaan kuppiin kupin yläpuolelta, tulee veden päätyä kuppiin.
+Ylimenevän veden tulee valua yli. expected:<VESI> but was:<TYHJA>
+	at hiekkaranta.HiekkarantaTest.vesiTayttaaKuopan(HiekkarantaTest.java:413)
+
+vesiJaHiekkaVaihtaaPaikkaa(hiekkaranta.HiekkarantaTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Hiekan tulee olla painavampi kuin veden, eli hiekan tulee vaihtaa veden kanssa paikkaa simulaatiossa niiden ollessa päällekkäin. Kokeile toimintaa 2x3 kokoisella simulaatiolla.. expected:<HIEKKA> but was:<VESI>
+	at hiekkaranta.HiekkarantaTest.vesiJaHiekkaVaihtaaPaikkaa(HiekkarantaTest.java:349)
+
+vesiSiirtyySimulaatiossa(hiekkaranta.HiekkarantaTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: Kun simulaatioon on lisätty kohtaan (x=10, y=100) vettä ja simulaation paivita-metodia on kutsuttu, ei veden enää pitäisi olla alkuperäisessä paikassa.. Actual: VESI
+	at hiekkaranta.HiekkarantaTest.vesiSiirtyySimulaatiossa(HiekkarantaTest.java:303)
+
+tippuvaHiekkaPutoaaPohjalle(hiekkaranta.HiekkarantaTest)  Time elapsed: 0.182 s  <<< FAILURE!
+java.lang.AssertionError: Valuuhan hiekka myös sivuille? expected:<HIEKKA> but was:<TYHJA>
+	at hiekkaranta.HiekkarantaTest.tippuvaHiekkaPutoaaPohjalle(HiekkarantaTest.java:260)
+

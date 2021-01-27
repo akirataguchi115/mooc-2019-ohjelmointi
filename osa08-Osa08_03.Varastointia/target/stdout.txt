@@ -1,0 +1,2 @@
+Tuote: olutHistoria: [2.0, 7.0]
+Suurin tuotem‰‰r‰: 7.0Pienin tuotem‰‰r‰: 2.0Keskiarvo: 4.5
